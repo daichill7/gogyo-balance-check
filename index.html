@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>五行バランスチェック</title>
+  <meta name="description" content="気になる症状から、東洋医学の循環構造で「根本の乱れ」をたどるセルフチェック。3D人体・ツボ・食養生のヒントも。">
+  <meta property="og:title" content="五行バランスチェック">
+  <meta property="og:description" content="症状から東洋医学の五行の循環で「根本の乱れ」をたどるセルフチェックアプリ">
+  <meta property="og:url" content="https://gogyo-balance-check.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#060b16">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="五行の村">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css?v=090">
+</head>
+<body>
+  <header class="app-header">
+    <h1>五行バランスチェック</h1>
+    <p class="tagline">気になる症状から、東洋医学の循環構造で「根本の乱れ」をたどるセルフチェック</p>
+    <nav class="mode-nav">
+      <div class="mode-nav-row">
+        <button class="mode-tab mode-tab-red active" id="tab-check">症状チェック</button>
+        <button class="mode-tab" id="tab-learn">からだを知る</button>
+      </div>
+      <div class="mode-nav-row">
+        <button class="mode-tab mode-tab-gold" id="tab-fortune">🔮 四柱推命</button>
+        <button class="mode-tab mode-tab-green" id="tab-village">🏡 五行の村</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- ============ 症状チェックモード ============ -->
+    <div id="mode-check" class="mode-panel">
+      <!-- Step 1: 部位選択 -->
+      <section id="step-region" class="step" tabindex="-1">
+        <h2 class="step-title"><span class="step-num">1</span>気になる症状のある場所を選んでください</h2>
+        <div class="region-layout">
+          <div class="figure-wrap" id="figure-wrap-select"></div>
+          <div class="region-buttons" id="region-buttons"></div>
+        </div>
+        <details class="redflag-details">
+          <summary>⚠ 受診の目安 — 激しい痛み・発熱・しびれなどがある方は先にご確認ください</summary>
+          <p>以下にあてはまる場合は、セルフチェックの前に医療機関を受診してください。</p>
+          <ul id="redflag-list-top"></ul>
+        </details>
+        <div id="saved-block" class="saved-block hidden">
+          <h3 class="learn-section-title">保存したチェック結果</h3>
+          <div id="saved-list" class="saved-list"></div>
+        </div>
+
+        <!-- 写真で歪みチェック(端末内AI) -->
+        <div id="posture-block">
+          <h3 class="learn-section-title posture-heading">📷 写真で歪みチェック(β)</h3>
+          <div class="result-card posture-card">
+            <p>正面からの写真1枚で、肩・骨盤・頭・顔の左右バランスをAIが計測します。</p>
+            <p class="posture-privacy">🔒 写真は<strong>この端末の中だけ</strong>で解析されます。アップロード・送信・保存は一切ありません。</p>
+            <details class="redflag-details posture-tips">
+              <summary>📸 はじめに — 撮影のコツと注意</summary>
+              <ul>
+                <li>明るい場所で、カメラを胸の高さに水平に構えて正面から撮る(自撮りより、置き撮りや誰かに撮ってもらうのがおすすめ)</li>
+                <li><strong>全身</strong>: 頭から足まで全部写るように。両腕を自然に下ろしてまっすぐ立つ。体のラインがわかる服装で</li>
+                <li><strong>顔</strong>: 前髪で眉や耳が隠れないように。食いしばらず自然な表情で</li>
+                <li>計測は撮影条件で1〜2°ほどブレます。1回の数値より「毎回同じ条件で撮って変化を見る」使い方が本命です</li>
+                <li>これは医療的な診断ではなく姿勢のセルフチェックです。<strong>痛み・しびれ・急な左右差(顔のゆがみ等)がある場合は、チェックより先に医療機関へ</strong></li>
+              </ul>
+            </details>
+            <div class="result-actions posture-actions">
+              <label class="primary-btn posture-btn">🧍 全身をチェック<input type="file" accept="image/*" id="posture-file-body" hidden></label>
+              <label class="primary-btn posture-btn">🙂 顔をチェック<input type="file" accept="image/*" id="posture-file-face" hidden></label>
+            </div>
+            <p class="posture-status hidden" id="posture-status"></p>
+            <div id="posture-result"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 2: 症状選択 -->
+      <section id="step-symptom" class="step hidden" tabindex="-1">
+        <button class="back-btn" id="back-to-region">← 部位を選び直す</button>
+        <h2 class="step-title"><span class="step-num">2</span><span id="symptom-heading"></span></h2>
+        <p class="window-note" id="window-note"></p>
+        <div class="symptom-list" id="symptom-list"></div>
+      </section>
+
+      <!-- Step 3: 詳細の絞り込み -->
+      <section id="step-detail" class="step hidden" tabindex="-1">
+        <button class="back-btn" id="back-to-symptom">← 症状を選び直す</button>
+        <h2 class="step-title"><span class="step-num">3</span><span id="detail-heading"></span></h2>
+        <p class="window-note" id="detail-note"></p>
+        <div id="detail-groups"></div>
+        <div class="result-actions">
+          <button class="primary-btn" id="detail-next">次へ(問診に進む)</button>
+        </div>
+      </section>
+
+      <!-- Step 4: 問診 -->
+      <section id="step-interview" class="step hidden" tabindex="-1">
+        <button class="back-btn" id="back-from-interview">← 戻る</button>
+        <p class="interview-progress" id="interview-progress"></p>
+        <h2 class="step-title"><span class="step-num">4</span><span id="interview-q"></span></h2>
+        <div class="symptom-list" id="interview-options"></div>
+        <p class="interview-skip-row"><button class="link-btn" id="interview-skip">問診をとばして結果を見る →</button></p>
+      </section>
+
+      <!-- Step 5: 結果 -->
+      <section id="step-result" class="step hidden" tabindex="-1">
+        <div id="result-body"></div>
+        <div class="result-actions result-subactions">
+          <button class="secondary-btn" id="save-result-btn">💾 この結果を保存</button>
+          <button class="secondary-btn" id="share-result-btn">🔗 結果をシェア</button>
+        </div>
+        <div class="result-actions">
+          <button class="primary-btn" id="restart-btn">最初からもう一度チェックする</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============ からだを知るモード ============ -->
+    <div id="mode-learn" class="mode-panel hidden">
+      <section class="step" tabindex="-1">
+        <h2 class="step-title">からだを知る</h2>
+
+        <h3 class="learn-section-title">レイヤー別マップ(タップで解説)</h3>
+        <p class="learn-intro">レイヤーを切り替えて、からだの中を探検してみましょう。人体を<strong>左右にスライドすると回転</strong>し、<strong>タップすると拡大</strong>されます。</p>
+        <div class="learn-tabs" id="learn-tabs"></div>
+        <div class="learn-layout">
+          <div class="learn-figure-col">
+            <div class="figure-wrap" id="learn-figure"></div>
+          </div>
+          <div class="learn-info-col">
+            <div class="learn-info" id="learn-info"></div>
+          </div>
+        </div>
+        <h3 class="learn-section-title">部位から知る — 手・足裏・耳・顔</h3>
+        <div class="diagram-tabs" id="diagram-tabs"></div>
+        <div class="learn-layout">
+          <div class="learn-figure-col">
+            <div class="diagram-box" id="diagram-box"></div>
+          </div>
+          <div class="learn-info-col">
+            <div class="learn-info" id="diagram-info"></div>
+          </div>
+        </div>
+        <div id="massage-pr"></div>
+        <p class="disclaimer-note" id="learn-disclaimer" style="margin-top:16px"></p>
+      </section>
+    </div>
+
+    <!-- ============ 四柱推命モード ============ -->
+    <div id="mode-fortune" class="mode-panel hidden">
+      <section class="step" tabindex="-1">
+        <h2 class="step-title fortune-title">四柱推命 — あなたの精霊を呼び出す</h2>
+        <p class="learn-intro">生年月日から「日干(あなたの本質)」と「五行の強さ(気配)」を読み解き、<strong>50タイプの精霊</strong>からあなたの精霊を呼び出します。</p>
+
+        <div id="fortune-last" class="fortune-last hidden">
+          <span class="fortune-last-label"></span>
+          <button class="choice-chip" type="button">もう一度見る</button>
+        </div>
+
+        <div class="result-card fortune-form">
+          <h3>生まれた日を教えてください</h3>
+          <div class="fortune-grid">
+            <select id="fortune-year" aria-label="生まれた年"></select>
+            <select id="fortune-month" aria-label="生まれた月"></select>
+            <select id="fortune-day" aria-label="生まれた日"></select>
+          </div>
+          <p class="sub-label">生まれた時間と場所(わかれば、より正確に)</p>
+          <div class="fortune-grid">
+            <select id="fortune-hour" aria-label="生まれた時間"></select>
+            <select id="fortune-pref" aria-label="生まれた都道府県"></select>
+          </div>
+          <div class="result-actions">
+            <button class="primary-btn gold-btn" id="fortune-run">🔮 精霊を呼び出す</button>
+          </div>
+          <p class="food-note">入力された生年月日はこの端末の中だけで計算され、外部には送信されません。</p>
+        </div>
+
+        <div id="fortune-result"></div>
+        <p class="disclaimer-note hidden" id="fortune-disclaimer"></p>
+      </section>
+    </div>
+
+    <!-- ============ 五行の村モード ============ -->
+    <div id="mode-village" class="mode-panel hidden">
+      <section class="step" tabindex="-1">
+        <h2 class="step-title village-title" id="village-hub-title">五行の村</h2>
+
+        <div id="village-tabs-area">
+          <div class="vtab-bar">
+            <button class="vtab vtab-active" data-vtab="talk">💬 トーク</button>
+            <button class="vtab" data-vtab="search">🔍 村をさがす</button>
+            <button class="vtab" data-vtab="friends">👥 フレンド</button>
+          </div>
+
+          <!-- トーク: 参加中の村 -->
+          <div id="vtab-talk">
+            <div id="talk-list" class="talk-list"></div>
+          </div>
+
+          <!-- 村をさがす -->
+          <div id="vtab-search" class="hidden">
+            <p class="learn-intro">共通の関心ごとで集まる、小さな村のあつまりです。<strong>召喚した精霊の姿+ニックネームだけ</strong>で参加できます(本名・連絡先は不要)。</p>
+            <div class="village-profile" id="village-profile"></div>
+            <div id="village-mine"></div>
+            <div class="result-actions">
+              <button class="primary-btn village-btn" id="village-create-btn">🏡 新しい村をつくる(承認制)</button>
+            </div>
+            <div id="village-list" class="village-list"></div>
+            <div class="result-card village-card">
+              <h3>村のおきて</h3>
+              <ul class="lifestyle-list">
+                <li>ここは癒しの村。診断結果の共有や、養生・東洋医学の話題をゆるく楽しみましょう</li>
+                <li>医療アドバイスの断定は禁止です(「病院に行かなくていい」等はNG)。体調が心配な方には受診をすすめてください</li>
+                <li>勧誘・宣伝・商品の販売・URLの投稿は禁止です</li>
+                <li>本名・住所・連絡先などの個人情報は書かない・聞かない</li>
+                <li>誹謗中傷、出会い目的の利用は禁止です</li>
+                <li>不適切な画像の投稿は禁止です(通報により村長が削除します)</li>
+                <li>おきてに反する発言は、村長(管理人)が削除・参加制限などの対応をすることがあります</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- フレンド -->
+          <div id="vtab-friends" class="hidden">
+            <div class="result-card village-card">
+              <h3>あなた</h3>
+              <div class="friend-me" id="friend-me"></div>
+              <div class="result-actions" style="margin-top:8px">
+                <button class="choice-chip" id="nick-edit-btn">✏️ ニックネームを変える</button>
+              </div>
+            </div>
+            <h3 class="learn-section-title village-sub">フレンド</h3>
+            <p class="cycle-caption" style="text-align:left">村のチャットで相手の精霊アイコンをタップすると追加できます。いまどの村にいるかが見え、会いに行けます(1対1のDMはありません)。</p>
+            <div id="friend-list" class="friend-list"></div>
+
+            <div class="result-card village-card">
+              <h3>引継ぎコード</h3>
+              <p style="font-size:0.88rem">機種変更や「ホーム画面に追加」したアプリ版に、精霊・ニックネーム・フレンドを引き継げます。</p>
+              <div class="result-actions">
+                <button class="secondary-btn" id="transfer-export-btn">📤 コードを発行</button>
+                <button class="secondary-btn" id="transfer-import-btn">📥 コードを取り込む</button>
+              </div>
+              <textarea id="transfer-code-box" class="transfer-code hidden" rows="3" readonly></textarea>
+            </div>
+
+            <div class="result-card">
+              <h3>住民証をつくる</h3>
+              <div id="village-meishi"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 村をつくる -->
+        <div id="village-view-create" class="hidden">
+          <button class="back-btn" id="vc-back">← 戻る</button>
+          <div class="result-card village-card">
+            <h3>新しい村をつくる</h3>
+            <p class="cycle-caption" style="text-align:left">申請すると村長(運営)が内容を確認し、承認されると一覧に登場します。</p>
+            <label class="form-label">村の名前(20文字まで)
+              <input type="text" id="vc-name" maxlength="20" placeholder="例: ぐっすり眠りたい村">
+            </label>
+            <label class="form-label">テーマ
+              <select id="vc-theme"></select>
+            </label>
+            <label class="form-label">村の紹介文(100文字まで)
+              <textarea id="vc-desc" rows="3" maxlength="100" placeholder="どんな人に来てほしいか、何を話す村かを書いてください"></textarea>
+            </label>
+            <div class="result-actions">
+              <button class="primary-btn village-btn" id="vc-submit">申請する</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 村長パネル -->
+        <div id="village-view-admin" class="hidden">
+          <button class="back-btn" id="admin-back">← 戻る</button>
+          <div class="result-card village-card">
+            <h3>村長パネル</h3>
+            <div id="admin-body"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 広告枠(スポンサー) -->
+  <aside class="ad-slot" id="ad-slot" aria-label="広告">
+    <span class="ad-label">PR</span>
+    <div class="ad-content" id="ad-content"></div>
+  </aside>
+
+  <footer class="app-footer">
+    <div class="footer-actions">
+      <button class="header-link" id="share-app-btn">🔗 このアプリをシェア</button>
+      <button class="header-link" id="contact-open-btn">✉️ ご意見・広告掲載</button>
+    </div>
+    <p id="footer-disclaimer"></p>
+    <p class="version">対応データ: 専門家監修前ドラフト v0.3.0</p>
+  </footer>
+
+  <!-- チャット(全画面・LINE風) -->
+  <div id="chat-overlay" class="hidden">
+    <div class="chat-top">
+      <button class="chat-top-back" id="chat-back" aria-label="戻る">←</button>
+      <div class="chat-top-info">
+        <span class="chat-title" id="chat-title"></span>
+        <span class="vc-tag" id="chat-theme"></span>
+      </div>
+      <span class="chat-online" id="chat-online"></span>
+    </div>
+    <div id="chat-messages" class="chat-messages"></div>
+    <div class="chat-inputbar">
+      <label class="chat-imgbtn" title="画像を送る">📷<input type="file" accept="image/jpeg,image/png,image/webp" id="chat-img-input" hidden></label>
+      <input id="chat-input" maxlength="300" placeholder="メッセージを書く" autocomplete="off">
+      <button id="chat-send" class="primary-btn village-btn chat-send-btn">送る</button>
+    </div>
+  </div>
+
+  <!-- 村のおきて同意モーダル -->
+  <div class="modal-overlay hidden" id="okite-modal">
+    <div class="modal-card">
+      <h3 class="modal-title">村のおきて — 参加のまえに</h3>
+      <ul class="lifestyle-list">
+        <li>ここは癒しの村。養生の話題をゆるく楽しみましょう</li>
+        <li>医療アドバイスの断定はNG。心配な方には受診をすすめてください</li>
+        <li>勧誘・宣伝・URLの投稿は禁止です</li>
+        <li>本名・住所・連絡先は書かない・聞かない</li>
+        <li>誹謗中傷・出会い目的の利用は禁止です</li>
+        <li>おきてに反する発言は、村長が削除・参加制限することがあります</li>
+      </ul>
+      <div class="result-actions">
+        <button class="primary-btn village-btn" id="okite-agree">おきてを守って参加する</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ご意見・広告掲載モーダル(Netlify Forms) -->
+  <div class="modal-overlay hidden" id="contact-modal">
+    <div class="modal-card">
+      <button class="modal-close" id="contact-close" aria-label="閉じる">×</button>
+      <h3 class="modal-title">ご意見・お問い合わせ</h3>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hp-field"><label>この欄は入力しないでください<input name="bot-field"></label></p>
+        <label class="form-label">種別
+          <select name="種別" id="contact-kind">
+            <option>ご意見・改善案</option>
+            <option>広告掲載のご相談</option>
+            <option>その他</option>
+          </select>
+        </label>
+        <label class="form-label">お名前(任意)
+          <input type="text" name="お名前" autocomplete="name">
+        </label>
+        <label class="form-label">メールアドレス(返信をご希望の場合)
+          <input type="email" name="メール" autocomplete="email">
+        </label>
+        <label class="form-label">内容
+          <textarea name="内容" rows="5" required placeholder="改善のご意見、広告掲載のご相談など、お気軽にどうぞ"></textarea>
+        </label>
+        <div class="result-actions"><button class="primary-btn" type="submit" id="contact-submit">送信する</button></div>
+        <p class="food-note">送信いただいた内容は、運営者への連絡にのみ使用します。</p>
+      </form>
+      <div id="contact-thanks" class="contact-thanks hidden">
+        <p>✅ 送信しました。ありがとうございます!</p>
+        <p class="food-note">返信が必要な内容の場合は、いただいたメールアドレスへご連絡します。</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/anatomy-data.js?v=090"></script>
+  <script src="js/figure.js?v=090"></script>
+  <script src="js/learn.js?v=090"></script>
+  <script src="js/app.js?v=090"></script>
+  <script src="js/extras.js?v=090"></script>
+  <script src="js/shichusuimei.js?v=090"></script>
+  <script src="js/fortune.js?v=090"></script>
+  <script src="js/village.js?v=090"></script>
+  <script type="module">
+    import { initPostureCheck } from "./js/posture.js?v=090";
+    initPostureCheck();
+  </script>
+
+  <!-- Cloudflare Web Analytics: Cookieレス。ページ閲覧のみを計測し、症状の入力内容は送信しない -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "dc320d28bba041938b8a010534335bc1"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+</body>
+</html>

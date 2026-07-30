@@ -1,0 +1,11 @@
+{
+  "note": "広告枠のデータ。activeをfalseにすると非表示。actionが'contact-ad'なら応募フォームを開くハウス広告、urlがあれば外部リンク広告(rel=sponsored付き)。",
+  "ads": [
+    {
+      "active": true,
+      "text": "このアプリを一緒に育ててくれるスポンサーを募集しています(鍼灸院・整体院・薬局・ヨガスタジオなど歓迎)",
+      "cta": "広告掲載のご案内",
+      "action": "contact-ad"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# 秘密情報(絶対にコミットしない)
+.dev.vars
+*.env
+.env*
+**/.dev.vars
+
+# ビルド・ローカル状態
+.wrangler/
+**/.wrangler/
+node_modules/
+.DS_Store
+
+# 参考素材(300MB・GitHubの100MB制限超えファイルを含む。ローカルのみで保持)
+五行キャラ参考/
+人体参考イラスト/
+精霊シート/

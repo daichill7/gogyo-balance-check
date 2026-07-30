@@ -1,0 +1,411 @@
+{
+ "version": "1",
+ "generatedAt": "2026-07-16",
+ "byPattern": {
+  "P01": [
+   {
+    "name": "クコの実 1kg (500g x 2袋）くこの実 ゴジベリー 無添加 粒揃いの特選グレード 乾燥クコの実 ドライフルーツ",
+    "price": 2459,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00trtsn.t92kebb5.g00trtsn.t92kfa13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnuthyougo%2Fitem062%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnuthyougo%2Fi%2F10000073%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuthyougo/cabinet/item063-500a.jpg?_ex=200x200",
+    "shop": "NUT HYOUGO 商店",
+    "review": 150,
+    "keyword": "クコの実"
+   },
+   {
+    "name": "【最大2500円OFFクーポン】極上 ドライ なつめ 500g 120g 80g ナツメ 無農薬 オーガニック 棗 有機",
+    "price": 1000,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00t03zn.t92kefaa.g00t03zn.t92kf1f5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhealthiers%2Fsoftjujube500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhealthiers%2Fi%2F10000008%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/healthiers/cabinet/biiino/item/main-image/20250331081250_1.jpg?_ex=200x200",
+    "shop": "ヘルシアス 薬膳とハーブのお店",
+    "review": 2166,
+    "keyword": "なつめ 乾燥"
+   },
+   {
+    "name": "黒ごまパウダー 500g 黒ごま 粉 黒ゴマ 粉末 黒胡麻 ふんまつ 素材まるごと 凍結粉砕 セサミン 含む アントシア",
+    "price": 3132,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00qy5ln.t92ke645.g00qy5ln.t92kf8d8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhl-labo%2F604%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhl-labo%2Fi%2F10006352%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/hl-labo/cabinet/normal_logo_02/604_01.jpg?_ex=200x200",
+    "shop": "青汁 粉末 健康茶の健康生活研究所",
+    "review": 9,
+    "keyword": "黒ごま"
+   }
+  ],
+  "P02": [
+   {
+    "name": "伊藤園 リラックス ジャスミンティー 600ml ペットボトル 24本 1ケース 【送料無料（一部地域除く）】 Rela",
+    "price": 2764,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00ufx0n.t92ke0f7.g00ufx0n.t92kf42d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffelicity-d%2Fito0070%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffelicity-d%2Fi%2F10000571%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/felicity-d/cabinet/img001/ito0070_1.jpg?_ex=200x200",
+    "shop": "FELICITY Health&Beauty",
+    "review": 7,
+    "keyword": "ジャスミン茶"
+   },
+   {
+    "name": "A【森のこかげ】 国産チンピ 粉末 (180g) 和歌山・愛媛県産 やさい パウダー 100％ ■ 国産 野菜 粉末 (",
+    "price": 1350,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q5kkn.t92kee70.g00q5kkn.t92kf01f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-picot%2Ffun-830%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-picot%2Fi%2F10002562%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-picot/cabinet/product/kokuyasai/chinpii-fsd.jpg?_ex=200x200",
+    "shop": "e-picot いーぴこっと楽天市場店",
+    "review": 8,
+    "keyword": "陳皮 茶"
+   },
+   {
+    "name": "国産 大葉パウダー 20g ～ 大分県産 内閣総理大臣賞受賞 農園作 ～ ( 青紫蘇 青じそ シソ オオバ 粉末 大分県",
+    "price": 3280,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2j4n.t92ke01e.g00s2j4n.t92kfb7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsonique%2Fn-obapowder-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsonique%2Fi%2F10000916%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/sonique/cabinet/item2/obapowdern_01.jpg?_ex=200x200",
+    "shop": "満天屋 - MANTENYA",
+    "review": 2,
+    "keyword": "しそ 乾燥"
+   }
+  ],
+  "P03": [
+   {
+    "name": "菊花茶 150g 農薬検査済 菊花 そのまま 無添加 きくか キクカ",
+    "price": 4800,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00ucvtn.t92ke5e7.g00ucvtn.t92kf0fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoushindo%2Fkikuka150%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoushindo%2Fi%2F10000704%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/toushindo/cabinet/09668731/kikuka150.jpg?_ex=200x200",
+    "shop": "灯心堂漢方薬局 楽天市場店",
+    "review": 0,
+    "keyword": "菊花茶"
+   },
+   {
+    "name": "1【森のこかげ】 スペアミントティー [80g] すぺあみんと ビギナー向き 清涼感あふれる シングル ハーブティー す",
+    "price": 1298,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q5kkn.t92kee70.g00q5kkn.t92kf01f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-picot%2F1326740%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-picot%2Fi%2F10000043%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-picot/cabinet/product/sd/speamint-sdf.jpg?_ex=200x200",
+    "shop": "e-picot いーぴこっと楽天市場店",
+    "review": 66,
+    "keyword": "ミント ティー"
+   },
+   {
+    "name": "緑茶 お中元 ギフト お茶 100g×3袋他(最大400g) 選べる お茶 福袋 2026 送料無料 【 ギフト お供え",
+    "price": 1197,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00rdt6n.t92ke47c.g00rdt6n.t92kf2df/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanrokuen%2F1bantumia-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsanrokuen%2Fi%2F10000055%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanrokuen/cabinet/04441016/fukubukuro_tl202311.jpg?_ex=200x200",
+    "shop": "お茶の山麓園",
+    "review": 4708,
+    "keyword": "緑茶 茶葉"
+   }
+  ],
+  "P04": [
+   {
+    "name": "ハスの実 400g 蓮の実 無添加 はすの実 蓮の子 蓮子 薬膳 薬膳茶 蓮の実 養生 アルカロイド 中華 物産 中国 ",
+    "price": 1880,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00u4zbn.t92kec63.g00u4zbn.t92kf64e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fuminari%2Fc5dy0001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fuminari%2Fi%2F10000194%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/uminari/cabinet/goods/6957847500122_0.jpg?_ex=200x200",
+    "shop": "海鳴ライフ",
+    "review": 9,
+    "keyword": "蓮の実"
+   },
+   {
+    "name": "AA特級 龍牙百合根 80g 栽培期間中農薬不使用 百合根(ゆりね) 薬膳食材 薬膳スープ",
+    "price": 1080,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00slain.t92ke1b7.g00slain.t92kfbf8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyuga-zakka%2F54324534%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyuga-zakka%2Fi%2F10000145%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yuga-zakka/cabinet/biiino/item/main-image/20220106100329_1.jpg?_ex=200x200",
+    "shop": "癒雅膳食",
+    "review": 5,
+    "keyword": "百合根"
+   },
+   {
+    "name": "3【森のこかげ】カモミールジャーマンティー [1.5g×50p] ティーバッグ カモミールティー カモマイル (残留農薬",
+    "price": 2300,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q5kkn.t92kee70.g00q5kkn.t92kf01f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-picot%2F1414660%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-picot%2Fi%2F10000336%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-picot/cabinet/product/herboto/imgrc0130921709.jpg?_ex=200x200",
+    "shop": "e-picot いーぴこっと楽天市場店",
+    "review": 957,
+    "keyword": "カモミール ティー"
+   }
+  ],
+  "P05": [
+   {
+    "name": "冷凍 やま芋 70g×20袋 とろろ 国産 長芋 大和芋 業務用 個包装 山芋 小分け とろろ芋 山かけ そば",
+    "price": 3735,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00tpgxn.t92ked3b.g00tpgxn.t92kff50/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshowell%2F0394-003887%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshowell%2Fi%2F10000699%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/showell/cabinet/amayahoo/07612181/imgrc0118804220.jpg?_ex=200x200",
+    "shop": "SHOWELL",
+    "review": 212,
+    "keyword": "山芋 とろろ"
+   },
+   {
+    "name": "【最大2500円OFFクーポン】極上 ドライ なつめ 500g 120g 80g ナツメ 無農薬 オーガニック 棗 有機",
+    "price": 1000,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00t03zn.t92kefaa.g00t03zn.t92kf1f5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhealthiers%2Fsoftjujube500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhealthiers%2Fi%2F10000008%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/healthiers/cabinet/biiino/item/main-image/20250331081250_1.jpg?_ex=200x200",
+    "shop": "ヘルシアス 薬膳とハーブのお店",
+    "review": 2166,
+    "keyword": "なつめ 乾燥"
+   },
+   {
+    "name": "みそ 味噌 800g 無添加 麹味噌 味噌汁 天然醸造 手作り 発酵 送料無料 生糀 米麹 糀 国産 ごはんのお供 ご飯",
+    "price": 1780,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00trcpn.t92kec2c.g00trcpn.t92kf888/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamasamisokoji%2Fm900%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamasamisokoji%2Fi%2F10000024%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamasamisokoji/cabinet/12573961/imgrc0107600989.jpg?_ex=200x200",
+    "shop": "やまさ味噌こうじ店 楽天市場店",
+    "review": 672,
+    "keyword": "味噌 無添加"
+   }
+  ],
+  "P06": [
+   {
+    "name": "ハトムギ茶 国産 5g × 55包 275g はとむぎ茶 はと麦茶 ハト麦茶 鳩麦茶 活性はとむぎ ティーバッグ ノンカ",
+    "price": 1350,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00qtjkn.t92keddf.g00qtjkn.t92kfa23/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnatuland-asahi%2F023te-ha-1027-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnatuland-asahi%2Fi%2F10001593%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/natuland-asahi/cabinet/shohin/hatomugicha/imgrc0082276691.jpg?_ex=200x200",
+    "shop": "自然の恵み ナチュランド",
+    "review": 923,
+    "keyword": "はと麦茶"
+   },
+   {
+    "name": "小豆 900g 北海道十勝産 メール便 豆力 北海道産 アサヒ食品工業 国産 国内産 乾燥小豆 あずき 豆 乾燥豆 お赤",
+    "price": 960,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00qx8mn.t92ke64e.g00qx8mn.t92kf256/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftabemon-dikara%2F2564%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftabemon-dikara%2Fi%2F10003987%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tabemon-dikara/cabinet/07763079/da226.jpg?_ex=200x200",
+    "shop": "食べもんぢから。",
+    "review": 1918,
+    "keyword": "小豆 国産"
+   },
+   {
+    "name": "【1.5L×12本セット】コーン茶 ひげ茶 とうもろこし茶 カフェインゼロ お茶 とうもろこしのひげ茶 1.5L × 1",
+    "price": 2980,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00tux1n.t92ke789.g00tux1n.t92kf332/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-kodawari%2F524068%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-kodawari%2Fi%2F10000107%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/s-kodawari/cabinet/jishahin50/524068.jpg?_ex=200x200",
+    "shop": "食のこだわり総本舗 食彩館",
+    "review": 153,
+    "keyword": "とうもろこしのひげ茶"
+   }
+  ],
+  "P07": [
+   {
+    "name": "【数量限定】天日寒風干 有機切干大根（長崎産）（50g）【夢有民農場】",
+    "price": 233,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00pusin.t92ke945.g00pusin.t92kf7df/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshizenkan%2F3716%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshizenkan%2Fi%2F10003780%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/shizenkan/cabinet/km000/km0128.jpg?_ex=200x200",
+    "shop": "PURE・HEART自然館",
+    "review": 108,
+    "keyword": "切り干し大根"
+   },
+   {
+    "name": "ムング豆 皮なし 500g Moong Dal skinless 緑豆 ムングダール 乾燥豆",
+    "price": 570,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q6hbn.t92ke526.g00q6hbn.t92kf645/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faarti%2F10000814%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faarti%2Fi%2F10000814%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/aarti/cabinet/00708629/img57134573.jpg?_ex=200x200",
+    "shop": "インドカレーの店 アールティ",
+    "review": 1,
+    "keyword": "緑豆 乾燥 500g"
+   },
+   {
+    "name": "ゴールドパック 和梨ジュース ストレート 160g 缶 20本 1ケース【送料無料（一部地域除く）】 長野県産 果汁10",
+    "price": 2979,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00ufx0n.t92ke0f7.g00ufx0n.t92kf42d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffelicity-d%2Fgol0014%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffelicity-d%2Fi%2F10003493%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/felicity-d/cabinet/img309/gol0014_1.jpg?_ex=200x200",
+    "shop": "FELICITY Health&Beauty",
+    "review": 4,
+    "keyword": "梨 ジュース"
+   }
+  ],
+  "P08": [
+   {
+    "name": "【送料無料】 高知産黄金しょうが粉末 50g 【代引不可】 高知県産 黄金生姜 生姜粉末 しょうがパウダー ジンジャーパ",
+    "price": 1000,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q5vwn.t92ke0cb.g00q5vwn.t92kfc40/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkoganenosato%2Fb00807205%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkoganenosato%2Fi%2F10002857%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/koganenosato/cabinet/shoga/gingerpowder/00807205_n.jpg?_ex=200x200",
+    "shop": "国産生姜専門 黄金の里",
+    "review": 583,
+    "keyword": "生姜 粉末"
+   },
+   {
+    "name": "「期間限定4299→3999円」100％無添加レンコンパウダー1kg入りお得業務用～「蓮根の力」（蓮根粉）れんこんパウダ",
+    "price": 3999,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00prrhn.t92ke3cc.g00prrhn.t92kfebd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsbn%2F726947%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsbn%2Fi%2F10000185%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/sbn/cabinet/health/cn-15032501_title02.jpg?_ex=200x200",
+    "shop": "SBN21",
+    "review": 1183,
+    "keyword": "れんこん パウダー"
+   },
+   {
+    "name": "白きくらげ1kg |【送料無料】【大容量】白木耳 白きくらげ 白キクラゲ キクラゲ 木耳 食物繊維が豊富 栄養満点 高級",
+    "price": 3980,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00txxhn.t92kec90.g00txxhn.t92kf46f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foomichi%2Faw00211%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Foomichi%2Fi%2F10000061%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/oomichi/cabinet/imgrc0126316628.jpg?_ex=200x200",
+    "shop": "大道貿易 楽天市場店",
+    "review": 176,
+    "keyword": "白きくらげ"
+   }
+  ],
+  "P09": [
+   {
+    "name": "白きくらげ1kg |【送料無料】【大容量】白木耳 白きくらげ 白キクラゲ キクラゲ 木耳 食物繊維が豊富 栄養満点 高級",
+    "price": 3980,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00txxhn.t92kec90.g00txxhn.t92kf46f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foomichi%2Faw00211%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Foomichi%2Fi%2F10000061%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/oomichi/cabinet/imgrc0126316628.jpg?_ex=200x200",
+    "shop": "大道貿易 楽天市場店",
+    "review": 176,
+    "keyword": "白きくらげ"
+   },
+   {
+    "name": "＼3本購入で1本プレゼント／国産はちみつ やまと養蜂堂 はちみつ 蜂蜜 1kg［とんがり］送料無料 やまと養蜂苑 純粋 ",
+    "price": 3280,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00ughkn.t92ked50.g00ughkn.t92kf0a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcrasifull%2F10000010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcrasifull%2Fi%2F10000001%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/crasifull/cabinet/09789525/imgrc0089473668.jpg?_ex=200x200",
+    "shop": "クラシフル 楽天市場店",
+    "review": 405,
+    "keyword": "はちみつ 国産"
+   },
+   {
+    "name": "AA特級 龍牙百合根 80g 栽培期間中農薬不使用 百合根(ゆりね) 薬膳食材 薬膳スープ",
+    "price": 1080,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00slain.t92ke1b7.g00slain.t92kfbf8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyuga-zakka%2F54324534%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyuga-zakka%2Fi%2F10000145%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yuga-zakka/cabinet/biiino/item/main-image/20220106100329_1.jpg?_ex=200x200",
+    "shop": "癒雅膳食",
+    "review": 5,
+    "keyword": "百合根"
+   }
+  ],
+  "P10": [
+   {
+    "name": "[送料無料] 伊藤園 黒豆茶 600mlPET×24本【3〜4営業日以内に出荷】 お茶 ペットボトル イソフラボン カロ",
+    "price": 2690,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q01bn.t92ke372.g00q01bn.t92kf927/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdrinkshop%2F22623-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdrinkshop%2Fi%2F10527052%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/drinkshop/cabinet/item52/021-0132-015-s-05.jpg?_ex=200x200",
+    "shop": "ドリンク屋【水・ソフトドリンク】",
+    "review": 15,
+    "keyword": "黒豆茶"
+   },
+   {
+    "name": "くるみ 700g 素焼きくるみ 無添加 大人気 高品質 アメリカ産 くるみ使用 素焼きナッツ 自然ナッツ おやつ おつま",
+    "price": 1798,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00trtsn.t92kebb5.g00trtsn.t92kfa13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnuthyougo%2Fitem060%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnuthyougo%2Fi%2F10000071%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuthyougo/cabinet/item022-a.jpg?_ex=200x200",
+    "shop": "NUT HYOUGO 商店",
+    "review": 86,
+    "keyword": "くるみ 素焼き"
+   },
+   {
+    "name": "シナモンスティック セイロン アメ横 大津屋 業務用 シナモン ハーブティー ハーブ cinnamon しなもん セイロ",
+    "price": 734,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q40en.t92ke61d.g00q40en.t92kf8e7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fuenoohtsuya%2F762075%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fuenoohtsuya%2Fi%2F10000281%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/uenoohtsuya/cabinet/spice/12470057/imgrc0116925901.jpg?_ex=200x200",
+    "shop": "アメ横大津屋スパイス・豆の専門店",
+    "review": 102,
+    "keyword": "シナモン スティック"
+   }
+  ],
+  "P11": [
+   {
+    "name": "【デイリー1位】黒ごまペースト SNS話題沸騰中！ 黒ゴマ 黒胡麻 有機ごま 松の実 生くるみ 生クルミ くるみ ペース",
+    "price": 2170,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00sm3yn.t92keac6.g00sm3yn.t92kf60a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flesbonbonnes%2Fpocomucho_paste_makkuro200%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flesbonbonnes%2Fi%2F10002873%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/lesbonbonnes/cabinet/08480932/09141823/makkuro_cart_200_.jpg?_ex=200x200",
+    "shop": "LESBONBONNES レボンボン",
+    "review": 216,
+    "keyword": "黒ごま ペースト"
+   },
+   {
+    "name": "国産 生芋の素 [100g ポスト投函2コまで] やまと芋 お好み焼き 麺 上用まんじゅう かるかん カステラ 野菜パウ",
+    "price": 1384,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00rzzen.t92kef15.g00rzzen.t92kf3f1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftengyokudo-pro%2Fa08001-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftengyokudo-pro%2Fi%2F10000396%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tengyokudo-pro/cabinet/07744033/namaimomoto100g.jpg?_ex=200x200",
+    "shop": "和食材料処 天極堂プロ",
+    "review": 3,
+    "keyword": "山芋 パウダー"
+   },
+   {
+    "name": "熊本県産 桑の葉茶 粉末 パウダー 150g 国産 桑茶 桑茶粉末 青汁 農薬不使用 無農薬 送料無料 糖質を制限されて",
+    "price": 1100,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00rdt6n.t92ke47c.g00rdt6n.t92kf2df/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanrokuen%2Fkuwanohacha-powder%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsanrokuen%2Fi%2F10000278%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanrokuen/cabinet/04441016/new-kuwapowder-top.jpg?_ex=200x200",
+    "shop": "お茶の山麓園",
+    "review": 408,
+    "keyword": "桑の葉茶"
+   }
+  ],
+  "P12": [
+   {
+    "name": "新豆入荷 お値打ち 黒大豆 850グラム 令和7年収穫 北海道産 【送料無料】 光黒大豆 北海黒大豆 国産黒大豆 乾燥黒",
+    "price": 1400,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00qpx0n.t92ke497.g00qpx0n.t92kfa8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmamemizuno%2Fotamesshi_kuromame-900g-mail%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmamemizuno%2Fi%2F10000948%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/mamemizuno/cabinet/j-beans/kuromame/otameshi_hikarikuro/imgrc0104912965.jpg?_ex=200x200",
+    "shop": "豆の専門店 豆の水野",
+    "review": 382,
+    "keyword": "黒豆 国産"
+   },
+   {
+    "name": "3種 ミックスナッツ 無添加 850g 産地直輸入 くるみ アーモンド カシューナッツ 無塩 添加物不使用 植物油不使用",
+    "price": 1650,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00s4zrn.t92keb25.g00s4zrn.t92kf90c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcalinuts%2Fn-1g-010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcalinuts%2Fi%2F10000078%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/calinuts/cabinet/promotion/original-main/260522-3mx-850g-r.jpg?_ex=200x200",
+    "shop": "calinuts",
+    "review": 47148,
+    "keyword": "くるみ 無塩"
+   },
+   {
+    "name": "【先着順！100円OFFクーポン◆楽天モバイル契約者限定】[大袋]とろりんスープ昆布と海藻[50杯分] 200g×1袋 ",
+    "price": 3080,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00rhasn.t92keb9b.g00rhasn.t92kf4bb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonbu-genzouya%2F520025%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkonbu-genzouya%2Fi%2F10000200%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/konbu-genzouya/cabinet/04433867/04475365/06952023/520025_231201_thum.jpg?_ex=200x200",
+    "shop": "昆布専門問屋 源蔵屋",
+    "review": 5432,
+    "keyword": "海藻 スープ"
+   }
+  ],
+  "P13": [
+   {
+    "name": "黒木耳 きくらげ 乾燥 黒きくらげ 黒 木耳 キクラゲ ホール中華料理 炒め物 八宝菜 ラーメントッピング ムーシーロー",
+    "price": 1000,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00tqb9n.t92kecfe.g00tqb9n.t92kf106/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiyoubussan%2F100000028%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdaiyoubussan%2Fi%2F10000040%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/daiyoubussan/cabinet/07889906/imgrc0083379645.jpg?_ex=200x200",
+    "shop": "食材卸ダイヨー",
+    "review": 21,
+    "keyword": "黒きくらげ"
+   },
+   {
+    "name": "【100年以上続く生薬会社の作った 徳島産 よもぎ茶 】 2g×40袋 ティーバッグ ポスト投函便 送料無料 小川生薬",
+    "price": 1296,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00qtc0n.t92kef18.g00qtc0n.t92kf1d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fteabox%2F501765%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fteabox%2Fi%2F10000539%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/teabox/cabinet/tea/t_yomogi/501765_pt.jpg?_ex=200x200",
+    "shop": "株式会社 小川生薬",
+    "review": 906,
+    "keyword": "よもぎ茶"
+   },
+   {
+    "name": "1【森のこかげ】 ローズレッドティー [90g] 優しい香り シングル ハーブティー ろーずれっど (残留農薬検査済み)",
+    "price": 1080,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q5kkn.t92kee70.g00q5kkn.t92kf01f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-picot%2F1326716%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-picot%2Fi%2F10000031%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-picot/cabinet/product/sd/rosered-sdf.jpg?_ex=200x200",
+    "shop": "e-picot いーぴこっと楽天市場店",
+    "review": 110,
+    "keyword": "ローズ ティー"
+   }
+  ]
+ },
+ "byTopic": {
+  "massage": [
+   {
+    "name": "＜今ならクーポンで2480円＞【雑誌anan掲載】corelief 進化した先端 フェイスマッサージ ペン型美顔器 [バ",
+    "price": 2980,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzj3n.t92ke518.g00tzj3n.t92kf7f4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F21%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faalto%2Fi%2F10001033%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/aalto/cabinet/12548863/2.jpg?_ex=200x200",
+    "shop": "音楽雑貨&アイデア雑貨のmifamire",
+    "keyword": "ツボ押し棒"
+   },
+   {
+    "name": "【管理医療機器】セネファ　せんねん灸　火を使わないお灸太陽 60コ入",
+    "price": 4248,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00qvyfn.t92kea2f.g00qvyfn.t92kff90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsundrug%2F4973452906496%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsundrug%2Fi%2F10135660%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/sundrug/cabinet/202411_1/4973452906496.jpg?_ex=200x200",
+    "shop": "サンドラッグe-shop",
+    "keyword": "せんねん灸"
+   },
+   {
+    "name": "マッサージ ボール 2個セット 【楽天1位】 Dr.relax Ball ツボ押し ストレス デトックス フィットネス ",
+    "price": 1690,
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00tiywn.t92ke4ae.g00tiywn.t92kf3d7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fthe-perfect-sports%2Fmassageball%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fthe-perfect-sports%2Fi%2F10000012%2F&rafcid=wsc_i_is_f70e757a-00c4-4ae3-825a-3dba14dcc40d",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/the-perfect-sports/cabinet/var/massageball/top-5.jpg?_ex=200x200",
+    "shop": "The Perfect Sports",
+    "keyword": "指圧 マッサージ ボール"
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "五行バランスチェック",
+  "short_name": "五行の村",
+  "description": "東洋医学のセルフチェックと、精霊たちのコミュニティ「五行の村」",
+  "start_url": "./#village",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060b16",
+  "theme_color": "#060b16",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
